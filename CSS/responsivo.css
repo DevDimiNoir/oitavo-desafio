@@ -1,0 +1,39 @@
+@media(max-width:850px){
+    main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: 100%;
+        width: 80%;
+        height: 100%;        
+    }
+    body{
+        font-size: 10px;
+    }
+    .item{
+        width:135px;
+        height:212px;
+        padding: 20px;
+    }
+    .icone{
+        width: 20px;
+        margin-bottom:10px;
+    }
+    .titulo{
+        font-size: 20px;
+        margin-bottom:10px;
+    }
+    .descricao{
+        font-size: 8px;
+        margin-bottom:10px;
+    }
+    .descricao.lux{
+        margin-bottom:1.5em;
+    }
+    button{
+        height: 20px;
+        width: 60px;
+        font-size: 8px;
+    }
+
+}
